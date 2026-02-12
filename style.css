@@ -128,8 +128,22 @@ body {
     text-shadow: 5px 2px 2px black;
 }
 
+.btnFilter1{
+    background-color: white;
+    color: black;
+    border-color: black;
+    cursor: pointer;
+    font-family: GaultierMono, monospace;
+    font-size: 14px;
+    height: 6em;
+    width: 12em;
+    margin-bottom: 3em;
+}
 
-
+.btnFilter1:hover {
+    background-color: darkgray;
+    color: white;
+}
     .btnFilter{
     background-color: white;
     color: black;
@@ -140,7 +154,6 @@ body {
     height: 6em;
     width: 12em;
     margin-bottom: 3em;
-
 }
 
 
@@ -167,6 +180,10 @@ body {
 
 }
 
+.TextVoordelen{
+
+    font-family: GaultierMono, monospace;
+}
 .myimage{
     width: 100%;
     height: auto;
